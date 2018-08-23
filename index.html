@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Proyecto Video</title>
+	<link href="aspecto_videos.css" rel="stylesheet">
+	<script src="funcionalida_progreso.js"></script>
+</head>
+
+<body>	
+	
+	<!--FORMA SENCILLA-->
+	
+	<!--<video src="video-2012-04-05-14-22-32.webm"  controls loop  width="520px" poster="../Imagenes/firefox-os.png"></video>-->
+	
+	<!--FORMA PARA NAVEGADORES QUE NO SOPORTAN UNO U OTRO FORMATO DE VIDEO-->
+	<section id="video" >
+		<video id="miVideo" width="720" >
+			<source src="video-2012-04-05-14-22-32.mp4">
+			<source src="video-2012-04-05-14-22-32.ogg">
+			<source src="video-2012-04-05-14-22-32.webm">
+		</video>
+		<nav>
+			<div id="botonera">
+				<button type="button" id="boton">Reproducir</button>
+			</div>
+			<div id="barra">
+				<div id="progreso"></div>				
+					
+			</div>
+			
+		</nav>
+		
+	</section>
+</body>
+</html>
