@@ -1,7 +1,7 @@
 "use strict";
 
 var mivideo,boton,barra,progreso,total,maximo,barraProgreso,avanzar,nuevoEstado;
-maximo=624;
+maximo=224;
 
 function comenzar(){
 	mivideo=document.getElementById("miVideo");

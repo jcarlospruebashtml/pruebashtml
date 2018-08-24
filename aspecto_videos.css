@@ -4,7 +4,7 @@
 
 
 #video{	
-	width: 720px;
+	width: 320px;
 	margin: 20px auto;
 	background-color: aqua;
 	padding: 10px  10px 13px 10px;
@@ -23,7 +23,7 @@ nav{
 	border-radius: 2px;
 }
 #barra{
-	width: 628px;
+	width: 228px;
 	height: 15px;
 	background-color: darkgrey;
 	padding: 3px;
